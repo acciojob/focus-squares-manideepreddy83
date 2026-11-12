@@ -1,7 +1,7 @@
 const square = document.qureySelectorAll(".square")
 
 square.forEach((square)=>{
-	square.addEventListener("mouseOver",(e)=>{
+	square.addEventListener("mouseover",(e)=>{
 		
 })
 })
