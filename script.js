@@ -1,19 +1,15 @@
-//your JS code here. If required.
-const boxes = document.querySelectorAll(".square")
+const square = document.qureySelectorAll(".square")
 
-boxes.forEach((square)=>{
-box.addEventListener("mouseover",(e)=>{
-	changeColor(e.target.id)
+square.forEach((square)=>{
+	square.addEventListener("mouseOver",(e)=>{
+		
 })
 })
-box.addEventListner("mouseout",(e)=>{
-boxes.forEach((square)=>{
-  square.style.backgroundColor="#E6E6FA"
+
+function changeColor(hover) {
+square.forEach((square)=>{
+if(square.id!=hover){
+	square.style.backgroundcolor = '#6F4E37'
 }
-)})
-function changeColor(hoverBoxId){
-box.forEach((square)=>{
-	if(square.id != hoverBoxId){
-    square.style.backgroundColor = "#6F4E37"
-	}
-})}
+})
+}
