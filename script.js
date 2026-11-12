@@ -1,4 +1,4 @@
-const square = document.qureySelectorAll(".square")
+const square = document.querySelectorAll(".square")
 
 square.forEach((square)=>{
 	square.addEventListener("mouseover",(e)=>{
@@ -9,7 +9,8 @@ square.forEach((square)=>{
 function changeColor(hover) {
 square.forEach((square)=>{
 if(square.id != hover){
-	square.style.backgroundcolor = '#6F4E37'
+	square.style.backgroundColor = '#6F4E37'
 }
 })
+}
 }
